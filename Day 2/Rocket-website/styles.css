@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(255 82 82);
+  color: #fff;
+  display: flex;
+  justify-content: center; /* align item center horizontally */
+  align-items: center; /* align item center vertically */
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  width: 800px;
+  text-align: left;
+  font-size: 2.1em;
+}
+
+nav {
+  background-color: #ff7e57;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+nav li a:hover {
+  background-color: #ff9f43;
+}
+
+.first-content {
+  background-color: #ff5252;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-content p {
+  font-size: 1.25em;
+  color: white;
+  text-align: center;
+}
+
+.first-content img {
+  border-radius: 50%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 6px;
+  gap: 2px;
+}
+
+article {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+}
+
+article h2 {
+  color: #ff5252;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+article p {
+  color: #555;
+  font-size: 1.05em;
+}
+
+.article-el {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  flex: 1;
+  background: white;
+  padding: 20px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside h3 {
+  color: #ff5252;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+aside a {
+  color: #555;
+  text-decoration: none;
+}
+
+aside a:hover {
+  color: #ff5252;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.second-content {
+  background-color: #ff7e57;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-content h2 {
+  color: white;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.second-content p {
+  font-size: 1.1em;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.second-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #ff5252;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.second-content button:hover {
+  background-color: #ff9f43;
+}
