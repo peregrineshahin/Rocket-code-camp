@@ -144,10 +144,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    /////
+    ///// doing statistics
     let query2 = featureLayer2.createQuery();
-
-
     query2.groupByFieldsForStatistics = ["UNIT_TYPE"]
     query2.outStatistics = [
       {
