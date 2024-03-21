@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     });
 
+    myMap.add(featureLayer);
+
     view.whenLayerView(featureLayer).then((layerView) => {
       const filterInput = document.getElementById("filterInput");
       const fieldSelect = document.getElementById("fieldSelect");
@@ -70,6 +72,5 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("filterInput").value = "";
     });
 
-    myMap.add(featureLayer);
   });
 });
